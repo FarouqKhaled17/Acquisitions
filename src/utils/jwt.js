@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import logger from '#/config/logger';
+import logger from '#config/logger';
 
 const SECRET_KEY = process.env.JWT_SECRET || 'your-secret-key';
 const EXPIRES_IN = '1h';
