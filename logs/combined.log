@@ -25,3 +25,95 @@
 {"level":"info","message":"::1 - - [23/Jan/2026:02:46:13 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36 Edg/143.0.0.0\"","service":"acquisitions"}
 {"level":"info","message":"::1 - - [23/Jan/2026:02:46:19 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
 {"level":"info","message":"::1 - - [23/Jan/2026:02:46:50 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:23:18 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:24:00 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:24:23 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:24:28 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:24:46 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:25:26 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:27:23 +0000] \"POST /auth/signup HTTP/1.1\" 404 151 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:28:12 +0000] \"POST /auth/signup HTTP/1.1\" 404 151 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:28:54 +0000] \"POST /auth/signup HTTP/1.1\" 404 151 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:29:22 +0000] \"POST /auth/signup HTTP/1.1\" 404 151 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:09:30:43 +0000] \"POST /auth/signup HTTP/1.1\" 404 151 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - admin [29/Jan/2026:23:01:51 +0000] \"POST /auth/signup HTTP/1.1\" 404 151 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"Root endpoint accessed","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:04:04 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:04:04 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:04:11 +0000] \"GET /logout HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:07:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"curl/8.5.0\"","service":"acquisitions"}
+{"level":"info","message":"User created: test@example.com with role user","service":"acquisitions"}
+{"level":"info","message":"New user signup: test@example.com with role user","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:07:17 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 103 \"-\" \"curl/8.5.0\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:07:27 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"curl/8.5.0\"","service":"acquisitions"}
+{"level":"info","message":"User logged out","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:07:33 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 42 \"-\" \"curl/8.5.0\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:08:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User created: faroukkhaled@example.com with role user","service":"acquisitions"}
+{"level":"info","message":"New user signup: faroukkhaled@example.com with role user","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:10:03 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 114 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:11:01 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:11:18 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:11:20 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User logged out","service":"acquisitions"}
+{"level":"info","message":"::1 - - [29/Jan/2026:23:11:37 +0000] \"POST /api/auth/logout HTTP/1.1\" 200 42 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:12:20 +0000] \"POST /api/auth/signin HTTP/1.1\" 404 155 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:12:38 +0000] \"POST /api/auth/signin HTTP/1.1\" 404 155 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:12:50 +0000] \"POST /api/auth/signin HTTP/1.1\" 404 155 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:28 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User created: faroukkhaled22@example.com with role user","service":"acquisitions"}
+{"level":"info","message":"New user signup: faroukkhaled22@example.com with role user","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:44 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 118 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:47 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:48 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:50 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:52 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:54 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:57 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:13:59 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:01 +0000] \"POST /api/auth/signup HTTP/1.1\" 500 464 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"warn","message":"Signup validation failed: Invalid input: expected string, received undefined","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:20 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 63 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"warn","message":"Signup validation failed: Invalid input: expected string, received undefined","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:21 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 63 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:41 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:44 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:46 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:48 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:50 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:52 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:54 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:56 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:58 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:14:59 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
+{"level":"info","message":"User authenticated: test@example.com","service":"acquisitions"}
+{"level":"info","message":"User login successful: test@example.com","service":"acquisitions"}
+{"level":"info","message":"::1 - - [30/Jan/2026:14:15:01 +0000] \"POST /api/auth/login HTTP/1.1\" 200 103 \"-\" \"Apidog/1.0.0 (https://apidog.com)\"","service":"acquisitions"}
